@@ -1,3 +1,6 @@
+# Update from fork: 
+* Use ffmpeg-2023-02-19-git-2aec86695a-essentials_build/x64/ffmpeg.exe from https://www.gyan.dev/ffmpeg/builds/
+
 # `ffmpeg-static-electron`
 
 The module returns a file path to the binary for the target operating system. 
