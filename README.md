@@ -1,3 +1,9 @@
+# Update 20250427
+* Mac arm64: Use ffmpeg version 7.1.1-https://www.martin-riedl.de
+* Win x64: Use ffmpeg version 7.1.1-essentials_build-www.gyan.dev
+
+Updating due to `prores_ks` has buffer issue in 4.4: https://trac.ffmpeg.org/ticket/9173#ticket
+
 # Update from fork: 
 * Use ffmpeg-2023-02-19-git-2aec86695a-essentials_build/x64/ffmpeg.exe from https://www.gyan.dev/ffmpeg/builds/
 
