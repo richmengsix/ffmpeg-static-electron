@@ -1,3 +1,9 @@
+# Update 20250521
+* Mac arm64: Use ffmpeg version N-119596-gfd18ae88ae-https://www.martin-riedl.de. This is a snapshot at "Created: 19 May 2025 19:43 CEST", newer than 7.1.1
+
+Update because ffmpeg 6.1.1 suffer from "died with <Signals.SIGBUS: 10>" when running HEVC encoding. Also HEVC encoding speed seems faster than 4.4 version
+
+
 # Update 20250512
 * Mac arm64: Use ffmpeg version 6.1.1-https://www.martin-riedl.de
 
