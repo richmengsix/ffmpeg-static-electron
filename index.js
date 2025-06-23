@@ -28,4 +28,13 @@ var ffmpegPath = path.join(
   platform === 'win' ? 'ffmpeg.exe' : 'ffmpeg'
 )
 
+var ffmpegPath_cropdetect = path.join(
+  __dirname,
+  'bin_cropdetect',
+  platform,
+  arch,
+  platform === 'win' ? 'ffmpeg.exe' : 'ffmpeg'
+)
+
 exports.path = ffmpegPath;
+exports.path_cropdetect = ffmpegPath_cropdetect;

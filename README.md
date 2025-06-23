@@ -1,3 +1,11 @@
+# Update 20250623
+Added `bin_cropdetect` because ffmpeg cropdetect struggled with version 1.7.1
+* Mac arm64: Use old version pre 20250427
+* Win x64: Use the same verrsion as main. 
+
+Added `bin_cropdetect` because ffmpeg cropdetect struggled with version 7.x version. 
+This is for macOS. Context: https://trac.ffmpeg.org/ticket/11436?cnum_hist=8&cversion=0. Follow the updates to see when we can deprecate `bin_cropdetect`
+
 # Update 20250521
 * Mac arm64: Use ffmpeg version N-119596-gfd18ae88ae-https://www.martin-riedl.de. This is a snapshot at "Created: 19 May 2025 19:43 CEST", newer than 7.1.1
 
